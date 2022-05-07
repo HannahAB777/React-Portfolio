@@ -5,6 +5,7 @@ import Home from "./components/home";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
 import MainLayout from "./layout/public-layout";
+import "./App.css"  ;
 
 function App() {
   //about
