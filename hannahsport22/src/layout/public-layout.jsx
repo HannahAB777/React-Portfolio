@@ -1,10 +1,12 @@
 import React from "react";
+import Navbar from "./nav/nav";
 
 export default function MainLayout(props){
     return(
-        ({/*nav */}),
-        <div>hellllooooo!!!!!</div>
-        ({props}),
+        <div>
+        <Navbar></Navbar>,
+        ({props.children}),
         ({/*footer */})
+        </div>
     )
 }

@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: #caeffa;
+}
+
+ul{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+li{
+    flex-grow: 1;
+    text-align: center;
+    list-style: none;
+    color: #0384ab;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+link{
+    text-decoration: none;
+}
