@@ -22,14 +22,15 @@ export default function Navbar(){
             title: "Contact",
             link: "contact"
         }
-    ]
+        
+    ];
     return(
         <nav>
-        <ul>{navItems.map((item) =>{
+        <ul>{navItems.map((item, index) =>{
             return(
                 
                 <li>
-                <Link to={item.link}>{item.title}</Link>
+                <Link key={index} to={item.link}>{item.title}</Link>
                 </li>
             )
         })}

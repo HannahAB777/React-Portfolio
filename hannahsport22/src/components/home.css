@@ -1,0 +1,19 @@
+.text-container{
+    min-height: 200px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size:larger;
+    color: #0384ab;
+    text-align: center;
+}
+
+br{
+   height: 5px;
+    background-color: #0384ab; 
+    width: 90%;
+    border: 5px solid #0384ab;
+}
