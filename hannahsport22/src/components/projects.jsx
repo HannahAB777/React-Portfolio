@@ -9,48 +9,48 @@ export default function Projects(){
         <div>
         <Container className="text-container">
         <h1>Mentoripum Emporium</h1>
-        <Row><image src ="../../public/images/mentorium-emporium"></image></Row>
+        <Row><img src ="../../public/images/mentorium-emporium" alt="view of mentorium imporium app"></img></Row>
         <p></p>
       </Container>
       <br></br>
       <Container>
-      <row>
+      <Row>
       <Col xs={4} md={2}>
       <h1>project1</h1>
-      <image></image>
+      <img src ="../../public/images/mentorium-emporium" alt="view of mentorium imporium app"></img>
       <p></p>
       </Col>
       <Col xs={4} md={2}>
       <h1>project 2</h1>
-      <image></image>
+      <img src ="../../public/images/mentorium-emporium" alt="view of mentorium imporium app"></img>
       <p></p>
       </Col>
       <Col xs={4} md={2}>
       <h1>project 3</h1>
-      <image></image>
+      <img src ="../../public/images/mentorium-emporium" alt="view of mentorium imporium app"></img>
       <p></p>
       </Col>
-      </row>
+      </Row>
       </Container>
       <br></br>
       <Container>
-      <row>
+      <Row>
       <Col xs={4} md={2}>
       <h1>project 4</h1>
-      <image></image>
+      <img src ="../../public/images/mentorium-emporium" alt="view of mentorium imporium app"></img>
       <p></p>
       </Col>
       <Col xs={4} md={2}>
       <h1>project 5</h1>
-      <image></image>
+      <img src ="../../public/images/mentorium-emporium" alt="view of mentorium imporium app"></img>
       <p></p>
       </Col>
       <Col xs={4} md={2}>
       <h1>project 6</h1>
-      <image></image>
+      <img src ="../../public/images/mentorium-emporium" alt="view of mentorium imporium app"></img>
       <p></p>
       </Col>
-      </row>
+      </Row>
       </Container>
       </div>
     )
