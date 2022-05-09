@@ -9,7 +9,7 @@ export default function Projects(){
         <div>
         <Container className="text-container">
         <h1>Mentoripum Emporium</h1>
-        <Row><image src =""></image></Row>
+        <Row><image src ="../../public/images/mentorium-emporium"></image></Row>
         <p></p>
       </Container>
       <br></br>
