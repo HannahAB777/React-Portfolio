@@ -27,7 +27,7 @@ export default function Navbar(){
             return(
                 
                 <li>
-                <Link key={index} to={item.link}>{item.title}</Link>
+                <Link className="link" key={index} to={item.link}>{item.title}</Link>
                 </li>
             )
         })}

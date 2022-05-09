@@ -1,5 +1,5 @@
 .text-container{
-    min-height: 200px;
+    min-height: 100px;
     width: 100px;
     justify-content: center;
     align-items: center;
@@ -10,6 +10,9 @@ h1{
     color: #0384ab;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 br{
@@ -17,4 +20,8 @@ br{
     background-color: #0384ab; 
     width: 90%;
     border: 5px solid #0384ab;
+}
+
+a{
+    
 }

@@ -1,6 +1,6 @@
 nav{
     display: flex;
-    height: 80px;
+    height: 70px;
     width: 100%;
     background-color: #caeffa;
 }
@@ -17,12 +17,15 @@ li{
     text-align: center;
     list-style: none;
     color: #0384ab;
+    font-size: larger;
 }
 
 li:hover{
     cursor: pointer;
 }
 
-link{
+.link{
     text-align: center;
+    text-decoration: none;
+    color: #0384ab;;
 }
