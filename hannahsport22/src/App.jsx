@@ -1,6 +1,4 @@
-import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import About from "./components/about";
 import Home from "./components/home";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
@@ -19,7 +17,6 @@ function App() {
 
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="about" element={<About />} />
       <Route path="projects" element={<Projects />} />
       <Route path="contact" element={<Contact />} />
     </Routes>
