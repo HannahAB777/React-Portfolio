@@ -1,0 +1,36 @@
+
+p{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-block-end: 0;
+   
+}
+
+a{
+ text-decoration: none;
+ overflow:hidden;
+
+}
+
+.secondary-projects{
+    height: 200px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondary-projects-title{
+    font-size: medium;
+}
+.text-container{
+    justify-content: center;
+    align-items: center;
+}
+
+div.col{
+    justify-content: center;
+    align-items: center;
+    max-width: 33%;
+    min-width: 33%;
+}
