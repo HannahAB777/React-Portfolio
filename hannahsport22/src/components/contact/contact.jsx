@@ -1,5 +1,5 @@
 import React  from "react";
-import { UseState } from "react";
+import { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -7,9 +7,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import css from "./contact.css";
 
 export default function contact() {
-  const [email, setEmail] = UseState("");
-  const [message, setMessage] = UseState("");
-  const [name, setName] = UseState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [name, setName] = useState("");
 
   const submitRequest = async (e) => {
     e.preventDefault();
