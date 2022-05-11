@@ -15,20 +15,15 @@ export default function Contact() {
   const submitRequest = async (e) => {
     e.preventDefault();
     console.log({ email, message, name });
-    const response = await fetch("/access", {
-      method: "POST",
-      headers: {
-        "Content-type": "application/json",
-      },
-      body: JSON.stringify({ email, message, name }),
-    });
-    const resData = await response.json();
-    if (resData.status === "success") {
-      alert("Message Sent.");
-      this.resetForm();
-    } else if (resData.status === "fail") {
-      alert("Message failed to send.");
-    }
+
+    emailjs.sendForm("service_htsdhk7", "template_9ke63bf", e.target, "NWjq-n3njb60ugI1n").then(res =>{
+        console.log(res);
+    }).catch(console.error());
+
+    setName("");
+    setEmail("");
+    setMessage("");
+   
   };
   return (
     <Container className="align-items-center contact-container">
@@ -47,6 +42,7 @@ export default function Contact() {
                 <input
                   className="form-control"
                   id="name"
+                  name= "name"
                   placeholder="name"
                   type="text"
                   onChange={(e) => setName(e.target.value)}
