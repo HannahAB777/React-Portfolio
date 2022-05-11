@@ -48,7 +48,7 @@ export default function contact() {
                   id="name"
                   placeholder="name"
                   type="text"
-                  onChange={(e) => setEmail(e.target.value)}
+                  onChange={(e) => setName(e.target.value)}
                 />
               </Col>
               <Col lg="6" className="form-group rounded-0">

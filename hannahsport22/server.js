@@ -1,6 +1,5 @@
-import {express, router} from 'express';
+import {express, router, app} from 'express';
 import {nodemailer, transporter} from 'nodemailer';
-let app = express();
 const path = require('path');
 
 
