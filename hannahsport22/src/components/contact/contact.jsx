@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 import "bootstrap/dist/css/bootstrap.min.css";
 import css from "./contact.css";
 
-export default function contact() {
+export default function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [name, setName] = useState("");
