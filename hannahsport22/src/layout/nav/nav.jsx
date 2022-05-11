@@ -28,9 +28,9 @@ export default function Navbar() {
       <ul>
         {navItems.map((item) => {
           return (
-            <li>
-              <Link className="link" key={item.index} to={item.link}>
-                {item.title}
+            <li key={item.index}>
+              <Link className="link" to={item.link } key={item.index}>
+               {item.title}
               </Link>
             </li>
           );

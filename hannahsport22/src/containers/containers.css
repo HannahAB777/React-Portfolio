@@ -1,3 +1,8 @@
+.profile-image{
+    max-height: 600px;
+    max-width: 450px;
+}
+
 .text-container{
 
     justify-content: center;
@@ -14,7 +19,7 @@ h1{
     padding-bottom: 20px;
 }
 
-.image-col{
-    justify-content: right;
+.Card{
     align-items: center;
+    justify-content: center;
 }
