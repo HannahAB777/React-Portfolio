@@ -22,4 +22,5 @@ h1{
 .Card{
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
