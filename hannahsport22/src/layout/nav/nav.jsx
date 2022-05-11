@@ -3,36 +3,39 @@ import { Link } from "react-router-dom";
 //import Button from "../../components/button/button";
 import "./nav.css";
 
+export default function Navbar() {
+  const navItems = [
+    {
+      title: "Home",
+      link: "/",
+    },
+    {
+      title: "About",
+      link: "/about",
+    },
 
-export default function Navbar(){
-    const navItems=[
-        {
-            title: "Home",
-            link: "/"
-        },
-    
-        {
-            title: "Projects",
-            link: "projects"
-        },
-        {
-            title: "Contact",
-            link: "contact"
-        }
-        
-    ];
-    return(
-        <nav>
-        <ul>{navItems.map((item, index) =>{
-            return(
-                
-                <li>
-                <Link className="link" key={index} to={item.link}>{item.title}</Link>
-                </li>
-            )
+    {
+      title: "Projects",
+      link: "projects",
+    },
+    {
+      title: "Contact",
+      link: "contact",
+    },
+  ];
+  return (
+    <nav>
+      <ul>
+        {navItems.map((item) => {
+          return (
+            <li>
+              <Link className="link" key={item.index} to={item.link}>
+                {item.title}
+              </Link>
+            </li>
+          );
         })}
-        
-        </ul>
-        </nav>
-    )
+      </ul>
+    </nav>
+  );
 }
