@@ -6,6 +6,7 @@ import weatherApp from "../images/weather-app-img.png";
 import quiz from "../images/quiz-img.png";
 import EmployeeDatabase from "../images/employee-database-img.png";
 import JATE from "../images/JATE-img.png";
+import READMEGen from "../images/README-gen.png";
 
 
 export default function ProjectCards(){
@@ -46,11 +47,11 @@ export default function ProjectCards(){
             deployed: "https://hannahs-pwa-note-taker.herokuapp.com/"
         },
         {
-            title: "",
-            img: "",
-            description: "",
-            git: "",
-            deployed: ""
+            title: "README Generator",
+            img: READMEGen,
+            description: "a README generator based on user inputs",
+            git: "https://github.com/HannahAB777/README-generator",
+            deployed: "https://watch.screencastify.com/v/HuQdTxxw3OHhQlUGDeqf"
         },
     ]
 
