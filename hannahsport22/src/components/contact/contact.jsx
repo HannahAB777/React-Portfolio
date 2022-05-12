@@ -11,6 +11,7 @@ import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
 import { library} from '@fortawesome/fontawesome-svg-core'
 import { faFilePdf } from '@fortawesome/free-regular-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css';
+import resume from "../../pdf/resume.pdf";
 library.add(faFilePdf);
 
 export default function Contact() {
@@ -89,7 +90,7 @@ export default function Contact() {
       <strong> <a href= "https://github.com/HannahAB777"><FontAwesomeIcon icon={faGithub} size="2x"/></a></strong>
       </Col>
       <Col>
-      <strong> <a href= "www.linkedin.com/in/hannah-emily-allison-batt"><FontAwesomeIcon icon={faFilePdf} size="2x"/></a></strong>
+      <strong> <a href= {resume} download><FontAwesomeIcon icon={faFilePdf} size="2x"/></a></strong>
       </Col>
       </Row>
       </Row>
