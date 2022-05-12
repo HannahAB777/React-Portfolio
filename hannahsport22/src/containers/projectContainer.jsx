@@ -1,6 +1,7 @@
 import React from "react";
 import css from "./containers.css";
 import Card from "react-bootstrap/Card";
+import Col from "react-bootstrap/Col";
 import marvelFan from "../images/marvel-fan-img.jpg";
 import weatherApp from "../images/weather-app-img.png";
 import quiz from "../images/quiz-img.png";
@@ -53,23 +54,26 @@ export default function ProjectCards(){
             git: "https://github.com/HannahAB777/README-generator",
             deployed: "https://watch.screencastify.com/v/HuQdTxxw3OHhQlUGDeqf"
         },
-    ]
+    ];
 
     return(
-        <div>
-        projects
+        <Col className="col-4">
+       {projects.map((project) =>{
+           return(
         <Card>
-        <h1>{projects.title}</h1>
+        <h1 key={project}>{project.title}</h1>
         <br/>
-        <img src={projects.img}></img>
+        <img src={project.img}></img>
         <br/>
-        <p>{projects.description}</p>
+        <p>{project.description}</p>
         <br/>
-        <a herf={projects.git}>{projects.git}</a>
+        <a href={project.git}>{project.git}</a>
         <br/>
-        <a href={projects.deployed}>{projects.deployed}</a>
+        <a href={project.deployed}>{project.deployed}</a>
         <br/>
         </Card>
-        </div>
+        )
+        })}
+        </Col>
     )
 }
