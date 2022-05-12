@@ -3,6 +3,7 @@ import css from "./containers.css";
 import Card from "react-bootstrap/Card";
 import marvelFan from "../images/marvel-fan-img.jpg";
 import weatherApp from "../images/weather-app-img.png";
+import quiz from "../images/quiz-img.png";
 
 
 export default function ProjectCards(){
@@ -22,11 +23,11 @@ export default function ProjectCards(){
             deployed: "https://hannahab777.github.io/weather-app/"
         },
         {
-            title: "",
-            img: "",
-            description: "",
-            git: "",
-            deployed: ""
+            title: "Coding quiz",
+            img: quiz,
+            description: "A timed coding quiz built with HTML, CSS, and JAVASCRIPT with highscores scored in local stoarge. Built to test your coding knowledge. when an anwser is incorrect 10 seconds will be deducted.",
+            git: "https://github.com/HannahAB777/coding-quiz",
+            deployed: "https://hannahab777.github.io/coding-quiz/"
         },
         {
             title: "",
