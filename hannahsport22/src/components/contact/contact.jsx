@@ -6,6 +6,10 @@ import Col from "react-bootstrap/Col";
 import "bootstrap/dist/css/bootstrap.min.css";
 //npimport css from "./contact.css";
 import emailjs from 'emailjs-com';
+import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
+import { faFilePdf } from '@fortawesome/free-regular-svg-icons';
+import '@fortawesome/fontawesome-svg-core/styles.css';
 
 export default function Contact() {
   const [email, setEmail] = useState("");
@@ -27,14 +31,8 @@ export default function Contact() {
   };
   return (
     <Container className="align-items-center contact-container">
+    <Row>
       <Row>
-        <Col>
-          <strong>email</strong>
-          <br />
-          <strong> linkden</strong>
-          <br />
-          <strong> email</strong>
-        </Col>
         <Col lg="7" className="d-flex align-items-center">
           <form className="contact_form w-100" onSubmit={submitRequest}>
             <Row>
@@ -80,6 +78,18 @@ export default function Contact() {
             </Row>
           </form>
         </Col>
+      </Row>
+      <Row>
+      <Col>
+      <strong> <a href= "www.linkedin.com/in/hannah-emily-allison-batt"><FontAwesomeIcon icon={faLinkedin} /></a></strong>
+      </Col>
+      <Col>
+      <strong> <a href= "https://github.com/HannahAB777"><FontAwesomeIcon icon={faGithub} /></a></strong>
+      </Col>
+      <Col>
+      <strong> <a href= "www.linkedin.com/in/hannah-emily-allison-batt"><FontAwesomeIcon icon={faFilePdf} /></a></strong>
+      </Col>
+      </Row>
       </Row>
     </Container>
   );
