@@ -21,9 +21,11 @@ export default function Projects(){
         <a href="https://mentorium-emporium.herokuapp.com/"> Deployed application: https://mentorium-emporium.herokuapp.com/</a>
       </Container>
       <br></br>
+      <Container>
       <Row>
       <ProjectCards></ProjectCards>
       </Row>
+      </Container>
       </div>
     )
 }
