@@ -5,6 +5,7 @@ import marvelFan from "../images/marvel-fan-img.jpg";
 import weatherApp from "../images/weather-app-img.png";
 import quiz from "../images/quiz-img.png";
 import EmployeeDatabase from "../images/employee-database-img.png";
+import JATE from "../images/JATE-img.png";
 
 
 export default function ProjectCards(){
@@ -38,11 +39,11 @@ export default function ProjectCards(){
             deployed: ""
         },
         {
-            title: "",
-            img: "",
-            description: "",
-            git: "",
-            deployed: ""
+            title: "Text Editor",
+            img: JATE,
+            description: "A progresive web aplication for editing and storing text, that can be installed and run offline.",
+            git: "https://github.com/HannahAB777/Text-editor",
+            deployed: "https://hannahs-pwa-note-taker.herokuapp.com/"
         },
         {
             title: "",
