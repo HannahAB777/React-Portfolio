@@ -1,8 +1,12 @@
+body{
+    background-color: #E0479E;
+
+}
 nav{
     display: flex;
     height: 70px;
     width: 100%;
-    background-color: #caeffa;
+    background-color: #E0479E;
 }
 
 ul{
@@ -12,20 +16,37 @@ ul{
     justify-content: center;
 }
 
-li{
+.navbar{
     flex-grow: 1;
     text-align: center;
     list-style: none;
-    color: #0384ab;
+    color: #553E4E;
+    font-size: larger;
+}
+
+.navOptions:hover{
+color: #FFAFC5;
+}
+
+.navList:hover{
+    color: #FFAFC5; 
+}
+
+li{
+    color: #553E4E;
     font-size: larger;
 }
 
 li:hover{
-    cursor: pointer;
+    color: #FFAFC5; 
 }
 
 .link{
     text-align: center;
     text-decoration: none;
-    color: #0384ab;;
+    color: #553E4E;
+}
+
+.link:hover{
+    color: #FFAFC5; 
 }

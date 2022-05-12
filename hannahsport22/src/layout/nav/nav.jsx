@@ -25,11 +25,11 @@ export default function Navbar() {
   ];
   return (
     <nav>
-      <ul>
+      <ul className="navbar">
         {[navItems[0], navItems[1], navItems[2], navItems[3]].map((item) => {
           return (
-            <li key={item}>
-              <Link className="link" to={item.link}>
+            <li className="navOptions navList" key={item}>
+              <Link className="navList" className="link" to={item.link}>
                {item.title}
               </Link>
             </li>
