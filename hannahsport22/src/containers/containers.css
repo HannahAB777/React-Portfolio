@@ -12,7 +12,7 @@
 
 h1{
     font-size:larger;
-    color: #0384ab;
+    color: #553E4E;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -20,8 +20,24 @@ h1{
     padding-bottom: 20px;
 }
 
-.Card{
+
+.projectImages{
+    width: 100%;
+}
+
+.projectsCard{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    background-color: #FFAFC5;
+    border: 2px solid #FF9F1C;
+}
+
+.projectsCol{
+    	max-width: 33%;
+        flex-grow: 3;
+
 }

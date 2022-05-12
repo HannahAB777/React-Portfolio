@@ -57,13 +57,13 @@ export default function ProjectCards(){
     ];
 
     return(
-        <Col className="col-4">
+        <div className="projectsCol">
        {projects.map((project) =>{
            return(
-        <Card>
+        <Card className="projectsCard">
         <h1 key={project}>{project.title}</h1>
         <br/>
-        <img src={project.img}></img>
+        <img className="projectImages" src={project.img}></img>
         <br/>
         <p>{project.description}</p>
         <br/>
@@ -74,6 +74,6 @@ export default function ProjectCards(){
         </Card>
         )
         })}
-        </Col>
+        </div>
     )
 }

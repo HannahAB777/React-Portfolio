@@ -22,7 +22,7 @@ export default function Projects(){
       </Container>
       <br></br>
       <Container>
-      <Row>
+      <Row className="cardRow">
       <ProjectCards></ProjectCards>
       </Row>
       </Container>
