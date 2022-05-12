@@ -2,6 +2,7 @@ import React from "react";
 import css from "./containers.css";
 import Card from "react-bootstrap/Card";
 import marvelFan from "../images/marvel-fan-img.jpg";
+import weatherApp from "../images/weather-app-img.png";
 
 
 export default function ProjectCards(){
@@ -14,11 +15,11 @@ export default function ProjectCards(){
             deployed: "https://hannahab777.github.io/Marvel-Fan-Site/"
         },
         {
-            title: "",
-            img: "",
-            description: "",
-            git: "",
-            deployed: ""
+            title: "Weather App",
+            img: weatherApp ,
+            description: "an App made with the use of the sever-side-API found at openweathermap.org/. You can search for and access weather data, from countries all over the world. with a current forecast and a future five day forecast.",
+            git: "https://github.com/HannahAB777/weather-app",
+            deployed: "https://hannahab777.github.io/weather-app/"
         },
         {
             title: "",
