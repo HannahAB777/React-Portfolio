@@ -20,16 +20,16 @@ export default function Navbar() {
     },
     {
       title: "Contact",
-      link: "contact",
+      link: "/contact",
     },
   ];
   return (
     <nav>
       <ul>
-        {navItems.map((item) => {
+        {[navItems[0], navItems[1], navItems[2], navItems[3]].map((item) => {
           return (
-            <li key={item.index}>
-              <Link className="link" to={item.link } key={item.index}>
+            <li key={item}>
+              <Link className="link" to={item.link}>
                {item.title}
               </Link>
             </li>
