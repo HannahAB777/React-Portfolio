@@ -8,8 +8,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import emailjs from 'emailjs-com';
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
+import { library} from '@fortawesome/fontawesome-svg-core'
 import { faFilePdf } from '@fortawesome/free-regular-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css';
+library.add(faFilePdf);
 
 export default function Contact() {
   const [email, setEmail] = useState("");
@@ -81,13 +83,13 @@ export default function Contact() {
       </Row>
       <Row>
       <Col>
-      <strong> <a href= "www.linkedin.com/in/hannah-emily-allison-batt"><FontAwesomeIcon icon={faLinkedin} /></a></strong>
+      <strong> <a href= "www.linkedin.com/in/hannah-emily-allison-batt"><FontAwesomeIcon icon={faLinkedin} size="2x"/></a></strong>
       </Col>
       <Col>
-      <strong> <a href= "https://github.com/HannahAB777"><FontAwesomeIcon icon={faGithub} /></a></strong>
+      <strong> <a href= "https://github.com/HannahAB777"><FontAwesomeIcon icon={faGithub} size="2x"/></a></strong>
       </Col>
       <Col>
-      <strong> <a href= "www.linkedin.com/in/hannah-emily-allison-batt"><FontAwesomeIcon icon={faFilePdf} /></a></strong>
+      <strong> <a href= "www.linkedin.com/in/hannah-emily-allison-batt"><FontAwesomeIcon icon={faFilePdf} size="2x"/></a></strong>
       </Col>
       </Row>
       </Row>
