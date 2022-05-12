@@ -1,8 +1,4 @@
-.text-container{
 
-    justify-content: center;
-    align-items: center;
-}
 
 h1{
     font-size:larger;
@@ -21,4 +17,15 @@ h1{
 
 .homelayout{
 display: flex;
+}
+
+.homeMain{
+    justify-content: end;
+    align-items: center;
+}
+
+.imageCol{
+    position: absolute;
+    left: -35px;
+    bottom: -10px;
 }

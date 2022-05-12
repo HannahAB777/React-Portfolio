@@ -8,18 +8,13 @@ import Selfie from "../../containers/selfieContainer";
 
 export default function Home() {
   return (
-    <div>
-      <Container className="text-container">
-        <h1>Hello and welcome to my portfolio...</h1>
-      </Container>
-
-      <br></br>
+    <div className="homeMain">
 
       <Container fluid>
-        <Row>
+        <Row className="homeMainRow"> 
           <Col>
           </Col>
-          <Col><Selfie></Selfie></Col>
+          <Col className="imageCol" ><Selfie></Selfie></Col>
         </Row>
       </Container>
     </div>

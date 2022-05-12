@@ -5,16 +5,14 @@
 }
 
 h1{
-    font-size:larger;
-    color: #0384ab;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    color: #553E4E;
+    font-size: larger;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.image-col{
-    justify-content: right;
-    align-items: center;
+.imageCol{
+    position: absolute;
+    left: -35px;
+    bottom: -10px;
 }

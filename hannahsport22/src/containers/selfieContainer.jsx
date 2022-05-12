@@ -1,5 +1,5 @@
 import React from "react";
-import PictureOfMe from "../images/portimg.jpg";
+import PictureOfMe from "../images/pink-img.jpg";
 import css from "./containers.css";
 
 export default function Selfie(){
