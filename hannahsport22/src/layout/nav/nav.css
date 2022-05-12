@@ -22,6 +22,8 @@ ul{
     list-style: none;
     color: #553E4E;
     font-size: larger;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .navOptions:hover{
