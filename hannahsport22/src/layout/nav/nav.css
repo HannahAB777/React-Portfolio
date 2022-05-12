@@ -38,7 +38,8 @@ li{
 }
 
 li:hover{
-    color: #FFAFC5; 
+    color: #FFAFC5;
+    text-decoration: underline #FF9F1C;;
 }
 
 .link{
