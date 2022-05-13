@@ -7,10 +7,7 @@ import About from "./components/about/about";
 import "./App.css";
 
 function App() {
-  //about
-  //projects
-  //homepage
-  //contact me
+
   return (
     <BrowserRouter>
       <MainLayout>

@@ -16,3 +16,26 @@ h1{
     left: -35px;
     bottom: -10px;
 }
+
+.about-me{
+    font-size: large;
+    background-color: #FFAFC5;
+    color: #553E4E;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.about-me-p{
+    margin-top: 150px;
+    margin-left: 500px;
+    border: 2px solid #FF9F1C;
+    background-color: #FFAFC5;
+    width: 400px;
+    height: 250px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
