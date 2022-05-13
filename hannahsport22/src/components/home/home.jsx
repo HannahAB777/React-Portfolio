@@ -12,9 +12,14 @@ export default function Home() {
 
       <Container fluid>
         <Row className="homeMainRow"> 
-          <Col>
+          <Col className="imageCol" ><Selfie></Selfie>
+        
           </Col>
-          <Col className="imageCol" ><Selfie></Selfie></Col>
+          <Col>
+          
+      
+          </Col>
+          
         </Row>
       </Container>
     </div>

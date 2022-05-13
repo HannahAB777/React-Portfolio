@@ -8,7 +8,7 @@ import css from "./about.css";
 
 export default function Home() {
   return (
-    <div>
+    <div className="about-me-background">
       <Container>
         <Row className="">
           <Col className="about-me-p">

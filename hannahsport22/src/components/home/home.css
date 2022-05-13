@@ -25,7 +25,10 @@ display: flex;
 }
 
 .imageCol{
-    position: absolute;
-    left: -35px;
-    bottom: -10px;
+    
+}
+
+.title{
+    margin-left: 600px;
+    margin-top: 300px;
 }

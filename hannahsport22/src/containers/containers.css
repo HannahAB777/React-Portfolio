@@ -1,7 +1,12 @@
 .profile-image{
-    max-height: 600px;
-    max-width: 450px;
+    height: 90vh;
+    width: 400px;
     
+}
+
+.selfie-container{
+    height: 90vh;
+    width: 400px;
 }
 
 .text-container{
