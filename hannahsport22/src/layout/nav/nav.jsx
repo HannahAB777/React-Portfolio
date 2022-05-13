@@ -8,28 +8,32 @@ export default function Navbar() {
     {
       title: "Home",
       link: "/",
+      index: 0
     },
     {
       title: "About",
       link: "/about",
+      index:1
     },
 
     {
       title: "Projects",
       link: "projects",
+      index:3
     },
     {
       title: "Contact",
       link: "/contact",
+      index:4
     },
   ];
   return (
     <nav>
       <ul className="navbar">
-        {[navItems[0], navItems[1], navItems[2], navItems[3]].map((item) => {
+        {navItems.map((item, index) => {
           return (
-            <li className="navOptions navList" key={item}>
-              <Link className="navList" className="link" to={item.link}>
+            <li className="navOptions navList" key={item.index}>
+              <Link className="navList link" to={item.link}>
                {item.title}
               </Link>
             </li>
