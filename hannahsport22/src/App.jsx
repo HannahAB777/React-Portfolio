@@ -4,7 +4,7 @@ import Projects from "./components/projects/projects";
 import Contact from "./components/contact/contact";
 import MainLayout from "./layout/public-layout";
 import About from "./components/about/about";
-import "./App.css"  ;
+import "./App.css";
 
 function App() {
   //about
@@ -13,18 +13,14 @@ function App() {
   //contact me
   return (
     <BrowserRouter>
-
-    <MainLayout>
-
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="projects" element={<Projects />} />
-      <Route path="contact" element={<Contact />} />
-    </Routes>
-
-</MainLayout>
-
+      <MainLayout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="contact" element={<Contact />} />
+        </Routes>
+      </MainLayout>
     </BrowserRouter>
   );
 }
