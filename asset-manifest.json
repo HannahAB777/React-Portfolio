@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.afcc28a2.css",
-    "main.js": "/React-Portfolio/static/js/main.ddbb91bd.js",
-    "static/media/portimg.jpg": "/React-Portfolio/static/media/portimg.f819b340733abd533120.jpg",
+    "main.css": "/React-Portfolio/static/css/main.0774b9e1.css",
+    "main.js": "/React-Portfolio/static/js/main.f6b0fbdc.js",
+    "static/media/profile-icon.jpg": "/React-Portfolio/static/media/profile-icon.65c3599fe92b93c86ec3.jpg",
     "static/media/marvel-fan-img.jpg": "/React-Portfolio/static/media/marvel-fan-img.1dbec389adc5aaebcaca.jpg",
     "static/media/mentorium-emporium.png": "/React-Portfolio/static/media/mentorium-emporium.f2dae69f72479686dab6.png",
     "static/media/README-gen.png": "/React-Portfolio/static/media/README-gen.68994b1527cd410ec772.png",
@@ -12,11 +12,11 @@
     "static/media/quiz-img.png": "/React-Portfolio/static/media/quiz-img.42a9276b2949bef4cc68.png",
     "static/media/JATE-img.png": "/React-Portfolio/static/media/JATE-img.f89b5d678d93faf95723.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.afcc28a2.css.map": "/React-Portfolio/static/css/main.afcc28a2.css.map",
-    "main.ddbb91bd.js.map": "/React-Portfolio/static/js/main.ddbb91bd.js.map"
+    "main.0774b9e1.css.map": "/React-Portfolio/static/css/main.0774b9e1.css.map",
+    "main.f6b0fbdc.js.map": "/React-Portfolio/static/js/main.f6b0fbdc.js.map"
   },
   "entrypoints": [
-    "static/css/main.afcc28a2.css",
-    "static/js/main.ddbb91bd.js"
+    "static/css/main.0774b9e1.css",
+    "static/js/main.f6b0fbdc.js"
   ]
 }
