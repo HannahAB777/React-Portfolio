@@ -11,16 +11,18 @@ export default function Home() {
     <div className="homeMain">
 
       <Container fluid>
-        <Row className="homeMainRow"> 
+        
           <Col className="imageCol" ><Selfie></Selfie>
         
           </Col>
-          <Col>
-          
+          <Col className="titleCol">
+          <h2 className="name-title">Hannah Allison-Batt</h2>
+          <br/>
+          <h1 className="second-title">Junior Developer Portfolio</h1>
       
           </Col>
           
-        </Row>
+        
       </Container>
     </div>
   );
