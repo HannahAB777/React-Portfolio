@@ -12,7 +12,8 @@ function App() {
     <BrowserRouter>
       <MainLayout>
         <Routes>
-          <Route path="/React-Portfolio" element={<Home />} />
+        <Route path="/"  element={<Home />} />
+          <Route path="/React-Portfolio"  element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="projects" element={<Projects />} />
           <Route path="contact" element={<Contact />} />
