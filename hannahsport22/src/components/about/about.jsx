@@ -14,11 +14,7 @@ export default function Home() {
           <Col className="about-me-p">
             <h1>A little about me</h1>
             <p className="about-me">
-              "My name is Hannah Allison-Batt, Aspiring full stack web developer
-              entering the field through UWA's coding bootcamp. With a number of
-              projects under my belt, I'm interested in the application my
-              knowledge to help bring not only accessablity but equity to
-              various fields, especially healthcare."
+              "I am a full stack web developer with a strong interest in backend development and cybersecurity, who is a good communicator, versatile and motivated to learn.  I believe technology is a powerful and creative tool that can be used to improve business performance, participation, equity and quality of life in many different fields. "
             </p>
           </Col>
         </Row>
