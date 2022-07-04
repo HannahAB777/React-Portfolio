@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.0774b9e1.css",
-    "main.js": "/React-Portfolio/static/js/main.25b74bdd.js",
+    "main.js": "/React-Portfolio/static/js/main.032e3820.js",
     "static/media/profile-icon.jpg": "/React-Portfolio/static/media/profile-icon.65c3599fe92b93c86ec3.jpg",
     "static/media/marvel-fan-img.jpg": "/React-Portfolio/static/media/marvel-fan-img.1dbec389adc5aaebcaca.jpg",
     "static/media/mentorium-emporium.png": "/React-Portfolio/static/media/mentorium-emporium.f2dae69f72479686dab6.png",
@@ -13,10 +13,10 @@
     "static/media/JATE-img.png": "/React-Portfolio/static/media/JATE-img.f89b5d678d93faf95723.png",
     "index.html": "/React-Portfolio/index.html",
     "main.0774b9e1.css.map": "/React-Portfolio/static/css/main.0774b9e1.css.map",
-    "main.25b74bdd.js.map": "/React-Portfolio/static/js/main.25b74bdd.js.map"
+    "main.032e3820.js.map": "/React-Portfolio/static/js/main.032e3820.js.map"
   },
   "entrypoints": [
     "static/css/main.0774b9e1.css",
-    "static/js/main.25b74bdd.js"
+    "static/js/main.032e3820.js"
   ]
 }
