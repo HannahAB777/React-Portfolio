@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.0774b9e1.css",
-    "main.js": "/React-Portfolio/static/js/main.f6b0fbdc.js",
+    "main.js": "/React-Portfolio/static/js/main.25b74bdd.js",
     "static/media/profile-icon.jpg": "/React-Portfolio/static/media/profile-icon.65c3599fe92b93c86ec3.jpg",
     "static/media/marvel-fan-img.jpg": "/React-Portfolio/static/media/marvel-fan-img.1dbec389adc5aaebcaca.jpg",
     "static/media/mentorium-emporium.png": "/React-Portfolio/static/media/mentorium-emporium.f2dae69f72479686dab6.png",
     "static/media/README-gen.png": "/React-Portfolio/static/media/README-gen.68994b1527cd410ec772.png",
     "static/media/weather-app-img.png": "/React-Portfolio/static/media/weather-app-img.2bf2ee03a47755d65575.png",
-    "static/media/resume.pdf": "/React-Portfolio/static/media/resume.d838e8c975423a7c0d65.pdf",
+    "static/media/resume.pdf": "/React-Portfolio/static/media/resume.958b56a34d2bff4060a0.pdf",
     "static/media/employee-database-img.png": "/React-Portfolio/static/media/employee-database-img.3672f4288adf6ccdae8d.png",
     "static/media/quiz-img.png": "/React-Portfolio/static/media/quiz-img.42a9276b2949bef4cc68.png",
     "static/media/JATE-img.png": "/React-Portfolio/static/media/JATE-img.f89b5d678d93faf95723.png",
     "index.html": "/React-Portfolio/index.html",
     "main.0774b9e1.css.map": "/React-Portfolio/static/css/main.0774b9e1.css.map",
-    "main.f6b0fbdc.js.map": "/React-Portfolio/static/js/main.f6b0fbdc.js.map"
+    "main.25b74bdd.js.map": "/React-Portfolio/static/js/main.25b74bdd.js.map"
   },
   "entrypoints": [
     "static/css/main.0774b9e1.css",
-    "static/js/main.f6b0fbdc.js"
+    "static/js/main.25b74bdd.js"
   ]
 }
